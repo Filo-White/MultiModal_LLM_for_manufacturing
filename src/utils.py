@@ -141,7 +141,7 @@ def transcribe_audio_with_whisper(audio_data):
     Send raw audio data to Whisper API for transcription (without saving it to a file).
     """
     headers = {
-        "Authorization": f"Bearer {os.getenv("API_KEY")}",
+        "Authorization": f"Bearer {os.getenv('API_KEY')}",
     }
 
     # Convert the raw audio data to WAV format in memory
