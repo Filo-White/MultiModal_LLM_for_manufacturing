@@ -1,4 +1,4 @@
-from funzioni import *
+from utils import *
 
 def main():
     # Configurazione delle API
